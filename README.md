@@ -10,7 +10,7 @@ timm == 0.4.12
 ```
 
 ## Acknowledgment
-Our implementation is mainly based on [VAN-Classification](https://github.com/Visual-Attention-Network/VAN-Classification), [VAN-Segmentation](https://github.com/Visual-Attention-Network/VAN-Segmentation), [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt) and [Enjoy-Hamburger](https://github.com/Gsunshine/Enjoy-Hamburger). Thanks for their authors.
+Our implementation is mainly based on [mmcv](https://github.com/open-mmlab/mmcv), [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/), [VAN-Classification](https://github.com/Visual-Attention-Network/VAN-Classification), [VAN-Segmentation](https://github.com/Visual-Attention-Network/VAN-Segmentation), [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt) and [Enjoy-Hamburger](https://github.com/Gsunshine/Enjoy-Hamburger). Thanks for their authors.
 
 ## LICENSE
 
