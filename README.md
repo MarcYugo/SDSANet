@@ -1,5 +1,7 @@
 # SDSANet: Slight Deformable Spatial Attention Network for Semantic Segmentation
 
+The implementation of SDSANet in Pytorch. 
+
 ## Requirement
 ```bash
 mmsegmentation==0.26.0
