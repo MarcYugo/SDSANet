@@ -1,5 +1,5 @@
 _base_ = [
-    '../_base_/models/dsan_ham.py',
+    '../_base_/models/sdsan_ham.py',
     '../_base_/datasets/ade20k.py',
     '../_base_/default_runtime.py'
 ]
@@ -10,7 +10,7 @@ find_unused_parameters = True
 model = dict(
     type='EncoderDecoder',
     backbone=dict(
-        init_cfg=dict(type='Pretrained', checkpoint='pretrained/dsan_t.pth')),
+        init_cfg=dict(type='Pretrained', checkpoint='pretrained/sdsan_t.pth')),
     decode_head=dict(
         type='LightHamHead',
         in_channels=[64, 160, 256],

@@ -1,5 +1,5 @@
 _base_ = [
-    '../_base_/models/dsan_ham.py',
+    '../_base_/models/sdsan_ham.py',
     '../_base_/datasets/voc.py',
     '../_base_/default_runtime.py'
 ]
@@ -12,7 +12,7 @@ model = dict(
     backbone=dict(
         embed_dims=[64, 128, 320, 512],
         depths=[2, 2, 4, 2],
-        init_cfg=dict(type='Pretrained', checkpoint='pretrained/dsan_b.pth')),
+        init_cfg=dict(type='Pretrained', checkpoint='pretrained/sdsan_s.pth')),
     decode_head=dict(
         type='LightHamHead',
         in_channels=[128, 320, 512],
