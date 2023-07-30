@@ -47,4 +47,4 @@ lr_config = dict(policy='poly',
 runner = dict(type='IterBasedRunner', max_iters=80000)
 checkpoint_config = dict(by_epoch=False, interval=2000)
 evaluation = dict(interval=2000, metric='mIoU')
-data = dict(samples_per_gpu=8)
+data = dict(samples_per_gpu=4)
