@@ -6,7 +6,7 @@ The implementation of SDSANet in Pytorch.
 ```bash
 mmsegmentation==0.26.0
 mmcv-full==1.6.0
-timm == 0.4.12
+timm==0.4.12
 ```
 
 ## Acknowledgment
