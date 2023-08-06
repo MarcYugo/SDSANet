@@ -9,6 +9,15 @@ mmcv-full==1.6.0
 timm==0.4.12
 ```
 
+## Train
+After configuring the required paths and parameters in the shell file, use the following command for training.
+```bash
+# classification
+sh train.sh
+# segmentation
+bash dist_train.sh
+```
+
 ## Acknowledgment
 Our implementation is mainly based on [mmcv](https://github.com/open-mmlab/mmcv), [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/), [VAN-Classification](https://github.com/Visual-Attention-Network/VAN-Classification), [VAN-Segmentation](https://github.com/Visual-Attention-Network/VAN-Segmentation), [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt) and [Enjoy-Hamburger](https://github.com/Gsunshine/Enjoy-Hamburger). Thanks for their authors.
 
